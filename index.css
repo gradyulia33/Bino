@@ -109,7 +109,7 @@ padding:20px 69px}
 .block2{display: inline-block;
         height: 1100px;
 }
-.rombs1{
+.rombs{
   display: inline-block;
   position: relative;
   width: 290px;
@@ -117,11 +117,11 @@ padding:20px 69px}
   margin-right: 100px;
 }
 
-.rombs1:not(:last-child) {
+.rombs:not(:last-child) {
   margin-right: 56px;
 }
 
-.rombs1::before {
+.rombs::before {
   content: '';
   position: absolute;
   left: calc(50% - 37px);
@@ -130,38 +130,23 @@ padding:20px 69px}
   border: 1px solid rgba(153, 153, 153, 0.25);
   transition: .5s;
 }
-
-.rombs1:hover::before {
-    border-color: #e74c3c;
-    transform: rotate(45deg)scale(.85);
-    transition: .3s;
-}
-
-.rombs1:hover .section_2_subtitle {
+.rombs:hover .rombs {
     color: #e74c3c;
 }
+.rombs:hover::before {
+    border-color: #e74c3c;
+    transition: .2s;
+    transform: rotate(45deg)scale(.85);}
+.rombs1:nth-child(1)::after {background: url('glass.png') no-repeat 50% 50%;}
 .rombs1::after {content: '';
   position: absolute;
   left: calc(50% - 14px);
   top: calc(37px - 13px);
   width: 28px;
   height: 28px;}
-.rombs1:nth-child(1)::after {
-  background: url('img/glasses.png') no-repeat 50% 50%;
-}
-
-.rombs1:nth-child(2)::after {
-  background: url('img/heart.png') no-repeat 50% 50%;
-}
-
-.rombs1:nth-child(3)::after {
-  background: url('img/light_bulb.png') no-repeat 50% 50%;
-}
-
-.rombs1:nth-child(4)::after {
-  background: url('img/massage.png') no-repeat 50% 50%;
-}
-
+.rombs1:nth-child(2)::after {background: url('heart.png') no-repeat 50% 50%;}
+.rombs1:nth-child(3)::after {background: url('3.png') no-repeat 50% 50%;}
+.rombs1:nth-child(4)::after {background: url('massage.png') no-repeat 50% 50%;}
 .rombs_task {
   color: #6a6a6a;
   position: relative;
