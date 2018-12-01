@@ -109,7 +109,7 @@ padding:20px 69px}
 .block2{display: inline-block;
         height: 1100px;
 }
-.rombs{
+.rombs_part{
   display: inline-block;
   position: relative;
   width: 290px;
@@ -137,16 +137,16 @@ padding:20px 69px}
     border-color: #e74c3c;
     transition: .2s;
     transform: rotate(45deg)scale(.85);}
-.rombs1:nth-child(1)::after {background: url('glass.png') no-repeat 50% 50%;}
-.rombs1::after {content: '';
+.rombs:nth-child(1)::after {background: url('glass.png') no-repeat 50% 50%;}
+.rombs::after {content: '';
   position: absolute;
   left: calc(50% - 14px);
   top: calc(37px - 13px);
   width: 28px;
   height: 28px;}
-.rombs1:nth-child(2)::after {background: url('heart.png') no-repeat 50% 50%;}
-.rombs1:nth-child(3)::after {background: url('3.png') no-repeat 50% 50%;}
-.rombs1:nth-child(4)::after {background: url('massage.png') no-repeat 50% 50%;}
+.rombs:nth-child(2)::after {background: url('heart.png') no-repeat 50% 50%;}
+.rombs:nth-child(3)::after {background: url('3.png') no-repeat 50% 50%;}
+.rombs:nth-child(4)::after {background: url('massage.png') no-repeat 50% 50%;}
 .rombs_task {
   color: #6a6a6a;
   position: relative;
