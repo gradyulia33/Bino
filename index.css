@@ -80,29 +80,37 @@ margin-left: 497px;
        border: 1px solid #f1ebe7;}
 .ellips{margin-left:10px;
         margin-right:10px; }
-.button1{width: 132px;
-        height: 12px;
-        color:white;
-        font-size: 14px;
-font-weight: 700;
-font-family: "Open Sans";
-text-transform: uppercase;
-letter-spacing: 0.12px;
-border: white 2px solid;
-padding:20px 69px;
-margin-top: 70px;
+.button1{ display: inline-block;
+  width: 225px;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
+  border: 1px solid #ffffff;
+  background-color: #e74c3c;
+  color: #ffffff;
+  font-family: "Open Sans";
+  text-align: center;
+  font-size: 14px;
+  line-height: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.12px;
+
 }      
- .button2{width: 87px;
-         height: 12px;
-         color:white;
-         font-size: 14px;
-font-weight: 700;
-font-family: "Open Sans";
-text-transform: uppercase;
-line-height: 39.85px;
-letter-spacing: -0.24px;
-border: white 2px solid;
-padding:20px 69px}
+ .button2{ display:inline-block;
+  width: 225px;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+  margin-left: 29px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.12px;
+text-align: center;}
 .red{padding-right: 990px;
     padding-top: 995px;}
 
